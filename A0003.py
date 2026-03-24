@@ -1,0 +1,5 @@
+a, b, c, d, e = map(int, input().split())
+summa = sum([a, b, c, d, e])
+min_sum = min([a, b, c, d, e])
+max_sum = max([a, b, c, d, e])
+print(summa - max_sum, summa - min_sum) 
